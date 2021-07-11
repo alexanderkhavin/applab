@@ -771,17 +771,27 @@
     margin: 60px auto;
 }
 
-.FAQBlockClicked {
+.Clicked {
     height: 250px !important;
+    align-items: end !important;
+    padding-top: 25px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.FAQBlock {
+    align-items: end !important;
+    padding-top: 30px;
+    transition-duration: 1s;
+    cursor: pointer;
 }
 
 #FAQBlock {
     display: flex;
-    align-items: center;
     width: 945px;
     height: 60px;
     background-color: #f5f7fa;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .activeBlock {

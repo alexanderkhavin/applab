@@ -4,8 +4,16 @@ new Vue ({
         clicked: false,
     },
     methods: {
-        logs() {
-            console.log(this.clicked);
+        isActive() {
+            this.clicked = !this.clicked;
+            console.log('click '+ this.clicked);
         }
+    },
+    computed: {
+        FAQ_OBJECT: function () {
+            return {
+                'Clicked': this.clicked,
+            }
+        },
     }
 })

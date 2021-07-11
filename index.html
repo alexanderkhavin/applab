@@ -261,23 +261,23 @@
                 <h4>The rise of mobile devices the way we consume information entirely <br> and the world's most elevant channels such as Facebook</h4>
             </div>
             <div id="FAQBlocks">
-                <div id="FAQBlock" :class="{'FAQBlockClicked': clicked}">
+                <div id="FAQBlock" class="FAQBlock" @click="isActive()" :class="FAQ_OBJECT">
                     <h3>How to contact with riders emergency?</h3>
-                    <button id="FAQBlockBtn" @click="clicked = !clicked, logs()">+</button>
+                    <button id="FAQBlockBtn">+</button>
                 </div>
-                <div id="FAQBlock">
+                <div id="FAQBlock" class="FAQBlock" @click="isActive()" :class="FAQ_OBJECT">
                     <h3>App installation failed, how to update system information?</h3>
                     <button id="FAQBlockBtn">+</button>
                 </div>
-                <div id="FAQBlock">
+                <div id="FAQBlock" class="FAQBlock" :class="{'Clicked': clicked}" @click="clicked = !clicked, logs()">
                     <h3>Website reponse taking time, how to improve?</h3>
                     <button id="FAQBlockBtn">+</button>
                 </div>
-                <div id="FAQBlock">
+                <div id="FAQBlock" class="FAQBlock" :class="{'Clicked': clicked}" @click="clicked = !clicked, logs()">
                     <h3>New update fixed all bug and issues?</h3>
                     <button id="FAQBlockBtn">+</button>
                 </div>
-                <div id="FAQBlock">
+                <div id="FAQBlock" class="FAQBlock" :class="{'Clicked': clicked}" @click="clicked = !clicked, logs()">
                     <h3>How to contact with riders emergency?</h3>
                     <button id="FAQBlockBtn">+</button>
                 </div>
