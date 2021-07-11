@@ -1,0 +1,1351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+* img       {
+    pointer-events: none;
+}
+
+* button {
+    cursor: pointer;
+}
+
+* a {
+    text-decoration: none;
+}
+
+#app {
+    margin: 0;
+    padding: 0;
+}
+
+#headerId {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    width: 100%;
+    height: 150px;
+}
+
+#logoImg {
+    padding-right: 350px;
+}
+
+#navbar {
+    width: 600px;
+    list-style-type: none;
+    
+}
+
+#navbar li { 
+    display: inline;
+    padding-right: 40px; 
+}
+
+#navbar a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+}
+
+#tryButton {
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #2500f9;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+    border: none;
+    border-radius: 45px;
+    outline: none;
+}
+
+#headerPhone {
+    padding-left: 150px;
+    z-index: -1;
+}
+
+#headerBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 950px;
+    background: url(image/Layer\ 5.png);
+}
+
+#headerInfo {
+    margin-top: -250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    width: 570px;
+    height: 450px;
+}
+
+#headerInfo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: #242f51  ;
+}
+
+#headerInfo h4 {
+    margin-top: -50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #242f51  ;
+}
+
+#headerInfo a {
+    margin-left: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #2500f9;
+}
+
+#tryButtonBlock {
+    width: 170px;
+    height: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #2500f9;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 45px;
+    outline: none;
+}
+
+#companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#textCompanies{
+    text-align: center;
+    display: block;
+    padding-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #002c53;
+}
+
+#companies img {
+    padding-left: 40px;
+}
+
+#features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    width: 100%;
+    height: 950px;
+}
+
+#features h1 {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: #242f51  ;
+}
+
+#features h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #242f51  ;
+}
+
+#featureIcons{ 
+    margin-left: 100px;
+}
+
+#featureBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#textFeatureBlock1 {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #f55767  ;
+}
+#textFeatureBlock2 {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2563ff  ;
+}
+#textFeatureBlock3 {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #40975f ;
+}
+
+#featureBlock h4 {
+    margin-left: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #242f51  ;
+}
+
+#smart { 
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+}
+
+#smartInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#smartInfo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 1em;
+    margin-right: 155px;
+    color: #242f51  ;
+}
+
+#smartInfo h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-left: 45px;
+    font-size: 16px;
+    color: #242f51 ;
+}
+
+#smartIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+#smartIconsBlock1 {
+    margin-right: 90px;
+}
+
+#smartIconsBlock2 {
+    margin-right: 90px;
+}
+
+#smartIconsBlock1 h3 {
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #f55767  ;
+}
+#smartIconsBlock2 h3 {
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2563ff  ;
+}
+#smartIconsBlock3 h3 {
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #40975f ;
+}
+
+#smartIcons h4 {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #242f51  ;
+}
+
+#design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+#designInfo {
+    margin-left: 110px;
+    width: 600px;
+    height: 360px;
+}
+
+#designInfo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 1em;
+    margin-right: 155px;
+    color: #242f51  ;
+}
+
+#designInfo h3 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #242f51 ;
+}
+
+#design img {
+    margin-left: 150px;
+}
+
+#borderLine {
+    margin-top: 80px;
+    width: 100%;
+}
+
+#whyYouShouldChoose {
+    width: 100%;
+    height: 860px;
+}
+
+#whyYouShouldChooseInfo {
+    text-align: center;
+}
+
+#whyYouShouldChooseInfo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 1em;
+    color: #242f51  ;
+    margin-top: 140px;
+}
+
+#whyYouShouldChooseInfo h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #242f51 ;
+    margin-top: 50px;
+}
+
+#whyYouShouldChooseIconsUp {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#whyYouShouldChooseIconsDown {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#whyYouShouldChooseIconsBlock {
+    text-align: center;
+    margin-right: 90px;
+}
+
+#whyYouShouldChooseIconsBlock h3 {
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #242f51 ;
+}
+
+#whyYouShouldChooseIconsBlock h4 {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #242f51 ;
+}
+
+#ultima {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#ultimaBlock {
+    width: 690px;
+}
+
+#ultimaBlockInfo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 1em;
+    color: #242f51  ;
+}
+
+#ultimaBlockInfo h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #242f51 ;
+    margin-top: 35px;
+}
+
+#ultimaBlockIconsUp {
+    display: flex;
+    justify-content: start;
+}
+
+#ultimaBlockIconsUpBlock {
+    margin-right: 75px;
+    margin-top: 75px;
+}
+
+#ultimaBlockIconsUpBlock h3 {
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #242f51 ;
+}
+
+#ultimaBlockIconsUpBlock h4 {
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #242f51 ;
+}
+
+#seeBtn {
+    margin-top: 60px;
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #2500f9;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+    border: none;
+    border-radius: 45px;
+    outline: none;
+}
+
+#getAwesome {
+    width: 100%;
+    height: 1000px;
+}
+
+#getAwesomeInfo {
+    text-align: center;
+}
+
+#getAwesomeInfo h1 {
+    margin-top: 180px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 1em;
+    color: #242f51  ;
+}
+
+#getAwesomeInfo h4 {
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #242f51 ;
+}
+
+#sliderGetAwesome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+}
+
+#slider {
+    width: 285px;
+    height: 60px;
+    text-align: center;
+    border: 2px #ebebeb solid;
+    border-radius: 50px;
+}
+
+#slider .left { 
+    float: left;
+    margin-left: 35px;
+}
+
+#slider .right { 
+    float: right;
+    margin-right: 35px;
+}
+
+#slider span {
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #898a8e ;
+}
+
+#runner {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 7px;
+    width: 135px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #2500f9;
+    z-index: -1;
+}
+
+#getAwesomeBlocks {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+    width: 100%;
+    height: 700px;
+}
+
+#getAwesomeBlock1 {
+    width: 315px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: -1px 34px 50px -16px rgba(0,0,0,0.38);
+    margin-right: 40px;
+}
+
+#getAwesomeBlock1:hover, #getAwesomeBlock2:hover {
+    border: 1px #ebebeb solid;
+    box-shadow: none;
+}
+
+#getAwesomeBlock2 {
+    width: 315px;
+    height: 605px;
+    box-shadow: -1px 34px 50px -16px rgba(0,0,0,0.38);
+    border-radius: 10px;
+}
+
+#getAwesomeBlockContent {
+    width: 100%;
+    height: 230px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: linear-gradient(to top, #f4f7f9, #ffffff);
+}
+
+#getAwesomeBlockContentText {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#getAwesomeBlockContentText h1 {
+    margin-top: 65px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1em;
+    color: #242f51  ;
+}
+
+#getAwesomeBlockContentText span {
+    margin-top: 65px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1em;
+    color: #999ca5  ;
+}
+
+#getAwesomeBlockContent h3 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #242f51 ;
+}
+
+#getAwesomeBlockContent h4 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #999ca5;
+}
+
+
+#getAwesomeBlockContentInfo h4 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #999ca5;
+}
+
+#getAwesomeBtn {
+    display:block;
+    position: relative;
+    margin: 20px auto;
+    width: 210px;
+    height: 55px;
+    font-size: 16px;
+    background-color: #2500f9;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+    border: none;
+    border-radius: 45px;
+    outline: none;  
+}
+
+#getAwesomeLink {
+    margin-left: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: #2500f9;
+}
+
+#client {
+    margin-top: 150px;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clientBlockInfo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 1em;
+    color: #242f51  ;
+}
+
+#clientBlockInfo h4 {
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #242f51 ;
+}
+
+#clientBlockFeedback h3 {
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #242f51 ;
+}
+
+#clientBlockFeedback h4 {
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #242f51 ;
+}
+
+#clientBlockFeedbackStarIcon {
+    margin-top: 45px;
+}
+
+#clientBlockFeedbackName h3 {
+    margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #242f51 ;
+}
+
+#clientBlockFeedbackName span {
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #999ca5;
+}
+
+#ClientBlockFeedbackNameButton {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#clientBlockFeedbackShape {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#clientBlockFeedbackBtn {
+    width: 50px;
+    height: 50px;
+    background: none;
+    color: #dee1e6;
+    border: 2px #dee1e6 solid ;
+    border-radius: 50px;
+    outline: none;
+    font-size: 20px;
+}
+
+#clientBlockFeedbackBtn:hover {
+    width: 50px;
+    height: 50px;
+    background-color: #eff3f8;
+    color: #2500f9;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: 20px;
+}
+
+#FAQ {
+    margin-top: 190px;
+    height: 750px;
+}
+
+#FAQText {
+    text-align: center;
+}
+
+#FAQText h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 1em;
+    color: #242f51  ;
+}
+
+#FAQText h4 {
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #242f51 ;
+}
+
+#FAQBlocks {
+    display: table;
+    margin: 60px auto;
+}
+
+.FAQBlockClicked {
+    height: 250px !important;
+}
+
+#FAQBlock {
+    display: flex;
+    align-items: center;
+    width: 945px;
+    height: 60px;
+    background-color: #f5f7fa;
+    margin-bottom: 10px;
+}
+
+.activeBlock {
+    display: flex;
+    align-items: center;
+    width: 945px;
+    height: 260px;
+    background-color: #f5f7fa;
+    margin-bottom: 10px;
+}
+
+
+#FAQBlock h3 {
+    width: 800px;
+    margin-left: 50px;
+    padding-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #242f51 ;
+}
+
+#FAQBlock h4 {
+    display: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #242f51 ;
+}
+
+#FAQBlockBtn {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #242f51;
+    font-size: 35px;
+}
+
+#download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 430px;
+}
+
+#downloadInfo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 1em;
+    color: #242f51  ;
+}
+
+#downloadInfo h4 {
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #242f51 ;
+}
+
+#downloadImg {
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 530px;
+    margin-top: -40px;
+    background-color: #09142e;
+}
+
+#footerBlock {
+    margin-top: 80px;
+    text-align: center;
+    width: 500px;
+    height: 350px;
+}
+
+#footerNavbar {
+    margin-top: 55px;
+    width: 500px;
+    list-style-type: none;
+    
+}
+
+#footerNavbar li { 
+    display: inline;
+    padding-right: 20px;
+}
+
+#footerNavbar a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+}
+
+#footerBlockNames {
+    margin-top: 90px;
+}
+
+#footerBlockNames h3 {
+    color: #273043;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+#footerBlockSocialMedia {
+    margin-top: 50px;
+}
+
+a svg:hover #iconSVG {
+    fill: #ffffff;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+@media screen and (max-width: 575px) {
+    #headerId {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    #logoImg {
+        padding: 0;
+    }
+    #navbar {
+        display: none;
+    }
+    #tryButton {
+        display: none;
+    }
+    #headerPhone {
+        display: none;
+    }
+    #headerBlock {
+        background: none;
+        height: 550px;
+        margin-top: 50px;
+    }
+    #headerInfo {
+        display: block;
+        text-align: center;
+        
+    }
+    #headerBlock h1 {
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    #headerBlock h4 {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    #tryButtonBlock {
+        display: block;
+        margin: auto;
+        margin-top: 100px;
+    }
+    #headerInfo a {
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+    }
+    #textCompanies {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    #companies {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+    #companies img {
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+        padding: 0;
+    }
+    #features {
+        display: block;
+    }
+    #featuresImg {
+        display: none;
+    }
+    #featureIcons {
+        margin: auto;
+        margin-top: 30px;
+    }
+    #featureIcons h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+    #featureIcons h4 {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    #featureBlock {
+        display: block;
+    }
+    #featureBlock img {
+        display: block;
+        margin: auto;
+    }
+    #featureBlock h3{
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    #featureBlock h4{
+        text-align: center;
+        margin-left: 0;
+    }
+    #smart{
+        display: block;
+        margin-top: 200px;
+        height: 1200px;
+    }
+    #smartInfo {
+        display: block;
+    }
+    #smartInfo h1 {
+        display: block;
+        text-align: center;
+        font-size: 40px;
+        margin-right: 0;
+    }
+    #smartInfo h3 {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    #smartInfo img {
+        display: none;
+    }
+    #smartIcons {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #smartIconsBlock1, #smartIconsBlock2, #smartIconsBlock3 {
+        margin-right: 0;
+    }
+    #smartIconsBlock1 img, #smartIconsBlock2 img, #smartIconsBlock3 img {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #smartIconsBlock1 h3, #smartIconsBlock2 h3, #smartIconsBlock3 h3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    #smartIconsBlock1 h4, #smartIconsBlock2 h4, #smartIconsBlock3 h4 {
+        text-align: center;
+        margin-top: 10px;
+    }
+    #design {
+        display: block;
+        height: 500px;
+    }
+    #design img {
+        display: none;
+    }
+    #designInfo {
+        margin-left: 0;
+        width: 100%;
+    }
+    #designInfo h1 {
+        margin-right: 0;
+        font-size: 40px;
+        text-align: center;
+    }
+    #designInfo h3 {
+        margin-right: 0;
+        font-size: 16px;
+        text-align: center;
+    }
+    #whyYouShouldChoose{
+        display: block;
+        height: 2000px;
+    }
+    #whyYouShouldChooseIconsUp, #whyYouShouldChooseIconsDown {
+        display: block;
+        margin-top: 0;
+    }
+    #whyYouShouldChooseIconsBlock{
+        margin-top: 40px;
+        margin-right: 0;
+    }
+    #whyYouShouldChooseIconsBlock img{
+        margin: auto;
+    }
+    #whyYouShouldChooseIconsBlock h3{
+        margin-top: 20px;
+    }
+    #ultima {
+        display: block;
+        margin-top: 50px;
+    }
+    #ultimaBlock {
+        text-align: center;
+        width: 100%;
+    }
+    #ultimaBlockInfo h1 {
+        font-size: 40px;
+    }
+    #ultimaBlockInfo h4 {
+        font-size: 16px;
+    }
+    #ultimaBlockIcons {
+        display: block;
+    }
+    #ultimaBlockIconsUp {
+        display: block;
+    }
+    #ultimaBlockIconsUpBlock {
+        margin: auto;
+        margin-top: 40px;
+    }
+    #ultimaImg {
+        display: none;
+    }
+    #seeBtn {
+        margin: auto;
+        margin-top: 80px;
+    }
+    #getAwesome {
+        display: block;
+        height: 1800px;
+    }
+    #sliderGetAwesome {
+        margin-top: 80px;
+    }
+    #slider {
+        display: block;
+        margin: auto;
+    }
+    #getAwesomeBlocks {
+        display: block;
+    }
+    #getAwesomeBlock1 {
+        width: 290px;
+        margin: auto;
+    }
+    #getAwesomeBlock2 {
+        width: 290px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #client {
+        display: block;
+        height: 950px;
+        margin-top: 20px;
+    }
+    #client img{
+        display: none;
+    }
+    #clientBlockInfo h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    #clientBlockInfo h4 {
+        font-size: 16px;
+        text-align: center;
+    }
+    #clientBlockFeedback {
+        margin-top: 60px;
+        padding-left: 5px;
+        margin: auto;
+    }
+    #clientBlockFeedbackStarIcon {
+        display: block !important;
+    }
+    #clientBlockFeedbackName {
+        display: block;
+    }
+    #clientBlockFeedbackName h3{
+        margin-top: 40px;
+    }
+    #ClientBlockFeedbackNameButton {
+        margin-top: 20px;
+        display: block;
+    }
+    #FAQ {
+        display: block;
+        margin-top: 0;
+        margin: auto;
+        height: 900px;
+    }
+    #FAQBlock {
+        width: 300px;
+        height: 100px;
+    }
+    #FAQBlock h3 {
+        width: 200px;
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    #FAQBlockBtn {
+        margin-left: 0;
+        font-size: 25px;
+    }
+    #download {
+        display: block;
+        text-align: center;
+    }
+    #downloadImgVector {
+        display: none;
+    }
+    #downloadImg {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #footerNavbar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    #headerId {
+        display: block;
+        margin-top: 40px;
+    }
+    #logoImg {
+        display: block;
+        margin: auto;
+        padding: 0;
+    }
+    #navbar {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+    #navbar li {
+        padding-right: 20px;
+        padding-left: 30px;
+    }
+    #tryButton {
+        display: none;
+    }
+
+    #headerPhone {
+        padding: 0;
+    }
+    #headerInfo h1 {
+        margin-left: 10px;
+    }
+    #headerInfo h4 {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    #tryButtonBlock {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    #headerInfo a {
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    #companies img {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #features { 
+        margin-top: 30px;
+    }
+    #featuresImg { 
+        display: none;
+    }
+    #featureIcons {
+        margin-left: 0;
+    }
+    #smart {
+        margin-top: 20px;
+    }
+    #smartInfo {
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+    #smartInfo h1 {
+        margin-right: 0;
+    }
+    #smartInfo h3 {
+        margin-left: 10px;
+    }
+    #smartIcons {
+        margin-top: 40px;
+        text-align: center;
+    }
+    #smartIconsBlock3 h3 {
+        margin-top: 10px;
+    }
+    #design {
+        margin-top: 100px;
+    }
+    #design img {
+        margin-left: -150px;
+    }
+    #designInfo {
+        margin-left: 40px;
+        height: auto;
+    }
+    #designInfo h1 {
+        margin-right: 0;
+    }
+    #whyYouShouldChoose {
+        height: 1060px;
+    }
+    #ultima {
+        margin-top: 20px;
+    }
+    #ultimaBlock {
+        text-align: center;
+    }
+    #ultimaBlockIconsUp {
+        justify-content: center;
+        align-items: center;
+    }
+    #ultimaBlockIconsUpBlock {
+        margin-top: 70px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #ultimaImg {
+        display: none;
+    }
+    #client { 
+        margin-top: 20px;
+    }
+    #client img {
+        display: none;
+    }
+    #clientBlock img {
+        display: block;
+    }
+    #FAQ {
+        margin-top: 20px;
+        height: 550px;
+    }
+    #FAQBlock {
+        width: 700px;
+    }
+    #downloadImgVector {
+        display: none;
+    }
+}
+
+
