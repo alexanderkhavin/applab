@@ -905,7 +905,7 @@ footer {
     margin-top: 90px;
 }
 
-#footerBlockNames h3 {
+#footerBlockNames h3, p {
     color: #273043;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
